@@ -1,0 +1,41 @@
+First of all we create Repo on the Git
+
+Open Terminal or Git Bash on the Local Pc and then 
+
+git clone  XXXXX XXXXX where XXXX is the url address from the Repo
+
+The repo now is on the Local Pc from the Terminal we switch now to local
+
+git checkout -b "XXXX XXXX "  where XXXX for what will be used the Repo
+
+From the Terminal we can start directly VS Code which points to the local repo with the command 
+
+code .
+
+We create files , we modify the Readme and etc ... After we are done first we make Check 
+
+The check to see what is added/modified can be seen with command 
+
+git status
+
+Aftet that 
+
+git add .   #Add the files to the local repo
+
+After we add the files we make commit 
+
+git commit -am "XXXX XXXXX "  #Where XXX XXXX is the changes that we done
+
+With this steps we are done on local side and we will continue now to upload this to the repo in the cloud
+
+git push  #When you execute for the first time copy and execute the command that Git suggest you
+
+With this steps now in the cloud repo we have 2 branches. 1 is master and 1 is the branch that we push now.
+
+After this we should create Pull Request. 
+
+We have 2 types of PQ : 
+
+- Merge which means the new branch that we created to be Merged with the master. 
+
+
