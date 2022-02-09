@@ -28,7 +28,7 @@ git commit -am "XXXX XXXXX "  #Where XXX XXXX is the changes that we done
 
 With this steps we are done on local side and we will continue now to upload this to the repo in the cloud
 
-git push  #When you execute for the first time copy and execute the command that Git suggest you
+git push  #When you execute for the first time copy and execute the command that Git suggest you (for example : git push --set-upstream origin LearnGit)
 
 With this steps now in the cloud repo we have 2 branches. 1 is master and 1 is the branch that we push now.
 
